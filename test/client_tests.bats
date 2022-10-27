@@ -19,12 +19,7 @@ setup(){
       rm -f AsYouLikeIt.txt
       rm -f binary.jpg
 
-      # (Re)compile the code
-      rm -f segmentedfilesystem/*.class
-      javac segmentedfilesystem/*.java
-
-      # Run the client
-      java segmentedfilesystem.Main localhost
+      ../seg-fs/target/release/seg-fs localhost
 
       cd .. || exit
 

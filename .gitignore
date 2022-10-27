@@ -269,4 +269,8 @@ build
 # Ignore all local history of files
 .history
 
+# Rust
+seg-fs/target/*
+seg-fr/Cargo.lock
+
 # End of https://www.gitignore.io/api/vim,java,emacs,eclipse,intellij,visualstudiocode
